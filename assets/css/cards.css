@@ -20,13 +20,17 @@ html {
     padding: 15px 0;
 }
 
-.card__descriptionIcon {font-size: 32px; margin-bottom: 10px;}
+.card__descriptionIcon {font-size: 32px; margin-bottom: 10px; position: relative; left: 92px;}
+
+
 
 .card__descriptionText {
     color: #57727C;
     font-size: 12px;
     text-align: center;
     max-width: calc(100% - 30px);
+    position: relative;
+    left: 13px;
 }
 
 .card__price {
@@ -34,9 +38,12 @@ html {
     color: #57727C;
     font-size: 12px;
     font-weight: 700;
-    padding: 5px 15px;
+    padding: 5px 15px ;
     border-top: 1px solid #D7DBDD;
     background-color: #EEF3F5;
+  
+   
+ 
 }
 
 .cardGroup {
@@ -54,8 +61,36 @@ html {
   
     .cardGroup__card {
       border-left: 1px solid #D7DBDD;
+      width: 50%;
     }
   
     .cardGroup__cardDescription {
       /* flex-grow */
     }
+
+    .cardGroup {
+      display: flex; 
+      width: 50%;
+      justify-content: center,space space-evenly;
+    
+      
+      
+     
+     
+    
+    }
+
+     
+    
+   
+
+
+
+
+
+   
+     
+    
+
+   
+    
